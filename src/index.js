@@ -1,13 +1,13 @@
 import React from 'react'
 import { render } from 'react-dom'
-// import routes from './routes'
-import MemberList from './components/ui/MemberList'
+import routes from './routes'
 
 window.React = React
 
 render(
-	<MemberList />, 
+	routes,
 	document.getElementById('react-container'))
 
 
 //change member to memberlist
+//then change back to routes
